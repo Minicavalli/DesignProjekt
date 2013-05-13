@@ -14,14 +14,21 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="se.mah.k3.slagbrand.nicklas.MainActivity"
-            android:label="@string/app_name" >
+            android:name="se.mah.k3.slagbrand.nicklas.StartWindow"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="CategoryWindow"
+            android:screenOrientation="landscape"
+            ></activity>
+        <activity android:name="GameWindowWork"
+            android:screenOrientation="landscape"
+            ></activity>
     </application>
 
 </manifest>
